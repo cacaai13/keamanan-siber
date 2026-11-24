@@ -1,0 +1,28 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "",
+  "summary": {
+    "title": "Sistem E-Ticket - Kelompok 9",
+    "owner": "Kelompok 9",
+    "description": "Sistem e-ticket dan validasi tiket acara berbasis web serta aplikasi pemindai untuk satu acara. Peserta mendaftar melalui portal web, lalu setelah dikonfirmasi sistem, Backend Tiket menerbitkan tiket ber-QR code dengan identitas unik yang dapat ditampilkan di portal atau disimpan di ponsel. Pada hari acara, petugas pintu login pada Aplikasi Pemindai dan memindai QR tiket secara paralel di beberapa pintu masuk; Backend Tiket memeriksa kecocokan acara dan status tiket di Database Tiket, mengubah status menjadi telah check-in jika memenuhi syarat, serta menampilkan rekap kehadiran dan status tiket pada dashboard admin web. Ruang lingkup mencakup registrasi, penerbitan tiket, pemindaian, validasi, pembaruan status check-in, dan dashboard admin; pembayaran, pemasaran acara, serta pengiriman notifikasi berada di luar lingkup. Asumsi utama: komunikasi klien ke backend menggunakan saluran aman (HTTPS/TLS), ID/QR tiket tidak mudah ditebak berurutan, dan akun petugas serta admin terpisah.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
